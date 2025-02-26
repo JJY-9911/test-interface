@@ -1,11 +1,11 @@
 package com.example.testinterface.controller;
 
-import com.example.testinterface.model.User;
-import com.example.testinterface.utils.SignUtils;
+
+import com.example.japisdk.model.User;
+import com.example.japisdk.utils.SignUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.Duration;
 
 @RestController
 @RequestMapping("name")
